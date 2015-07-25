@@ -1,0 +1,17 @@
+{
+  "name": "jotform-webhook-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "DEBUG=express:* node app.js"
+  },
+  "author": "eee@jotform.com",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "multer": "^1.0.1"
+  }
+}
